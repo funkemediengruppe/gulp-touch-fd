@@ -1,6 +1,6 @@
 {
   "name": "gulp-touch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sets file modification times for files copied by gulp",
   "main": "index.js",
   "dependencies": {
