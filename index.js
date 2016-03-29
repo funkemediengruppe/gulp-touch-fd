@@ -8,6 +8,6 @@ module.exports = function(options) {
 		if (file.isNull()) { return cb(null, file); }
 		
 		// Update file modification and access time
-		return fs.utimes(file.path, new Date(), new Date(), cb);
+		return fs.utimes(file.path, new Date(), new Date(), cb(null, file));
 	});
 }
